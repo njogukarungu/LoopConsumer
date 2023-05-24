@@ -21,6 +21,8 @@ Mobile.startApplication('C:\\Users\\afrih\\Downloads\\LoopConsumer.apk', false)
 
 Mobile.switchToPortrait()
 
+WebUI.acceptAlert()
+
 Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Enter your Password (2)'), 'Philip1996..', 
     0)
 
